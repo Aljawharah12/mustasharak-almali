@@ -1,6 +1,6 @@
-# Mustasharak Al-Mali
+# Your Financial Advisor
 
-**Your Financial Advisor — understand your budget, set priorities, and plan your financial goals in Arabic.**
+** understand your budget, set priorities, and plan your financial goals in Arabic.**
 
 Mustasharak Al-Mali is a **Hermes agent profile** designed to help users review income, expenses, budgets, and financial goals through clear, practical guidance. The original profile is named `k`, and its personality instructions are stored in [SOUL.md](SOUL.md).
 
