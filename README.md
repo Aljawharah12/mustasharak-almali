@@ -1,72 +1,70 @@
-<div dir="rtl">
+# Mustasharak Al-Mali
 
-# مستشارك المالي
+**Your Financial Advisor — understand your budget, set priorities, and plan your financial goals in Arabic.**
 
-**افهم ميزانيتك، رتّب أولوياتك، وخطّط لأهدافك المالية بالعربية.**
+Mustasharak Al-Mali is a **Hermes agent profile** designed to help users review income, expenses, budgets, and financial goals through clear, practical guidance. The original profile is named `k`, and its personality instructions are stored in [SOUL.md](SOUL.md).
 
-مستشارك المالي هو بروفايل لإيجنت يعمل داخل **Hermes**، صُمّم للمساعدة في تحليل الدخل والمصروفات والميزانية والأهداف المالية، وتقديم اقتراحات واضحة قابلة للتطبيق. اسم البروفايل الأصلي هو `k`، وتعليمات شخصيته موجودة في [SOUL.md](SOUL.md).
+## What it helps with
 
-## ماذا يساعدك على عمله؟
+- Understanding how income is allocated and identifying areas for improvement.
+- Organizing a budget around existing commitments and priorities.
+- Exploring a savings plan with a specific target and timeline.
+- Comparing options and explaining benefits and risks where relevant.
 
-- فهم توزيع دخلك ومصروفاتك وتحديد ما يحتاج إلى تحسين.
-- تنظيم ميزانية تناسب التزاماتك وأولوياتك.
-- التفكير في خطة ادخار مرتبطة بهدف ومدة زمنية.
-- مقارنة الخيارات مع توضيح المزايا والمخاطر عند الحاجة.
+The agent responds in Arabic and asks follow-up questions when information is incomplete. This README is in English; the original Arabic agent instructions remain in `SOUL.md`.
 
-يرد الإيجنت بالعربية، ويطلب معلومات إضافية عندما تكون المعطيات غير كافية.
+## Getting started
 
-## البدء باستخدامه
+You need a working Hermes installation with a model provider configured in its settings.
 
-تحتاج إلى Hermes مُعدّ للعمل، مع مزود نموذج متصل من إعداداته.
+1. Open [SOUL.md](SOUL.md) and copy its contents.
+2. Create a Hermes profile named `k`, or choose another name.
+3. Add the contents to the profile’s personality instructions or its `SOUL.md` file. Back up existing instructions before replacing them.
+4. Select your model and provider in Hermes settings, then start a new conversation using the profile.
 
-1. افتح ملف [SOUL.md](SOUL.md) وانسخ محتواه.
-2. أنشئ بروفايلًا في Hermes باسم `k` أو باسم تختاره.
-3. ضع المحتوى في تعليمات شخصية البروفايل أو في ملف `SOUL.md` الخاص به. احتفظ بنسخة من التعليمات السابقة إذا كنت تعدّل بروفايلًا موجودًا.
-4. اختر النموذج ومزوده من إعدادات Hermes، ثم ابدأ محادثة جديدة باستخدام البروفايل.
+The profile setup interface may vary by Hermes version. This repository contains personality instructions, not a standalone application or a ready-to-import profile archive.
 
-قد تختلف واجهة إعداد البروفايل حسب إصدار Hermes. المستودع يشارك تعليمات الشخصية؛ ولا يتضمن تطبيقًا مستقلًا أو أرشيفًا جاهزًا للاستيراد.
+## Example prompts
 
-## جرّبه بهذه الأسئلة
+These examples are translated into English for this README. The profile is configured to respond in Arabic.
 
-> دخلي الشهري 8,000 ريال، ومصروفاتي الأساسية 4,500 ريال، والتزاماتي 1,000 ريال. ساعدني أرتّب ميزانية شهرية وحدد المعلومات الإضافية التي تحتاجها.
+> My monthly income is SAR 8,000, essential expenses are SAR 4,500, and other commitments are SAR 1,000. Help me organize a monthly budget and identify any additional information you need.
 
-> أبغى أدخر 12,000 ريال خلال سنة. ما المعلومات التي تحتاجها لبناء خطة تناسب دخلي والتزاماتي؟
+> I want to save SAR 12,000 within a year. What information do you need to build a plan around my income and commitments?
 
-> هذه مصروفاتي الشهرية حسب الفئات: السكن، الطعام، النقل، والترفيه. ساعدني أحدد فرص تقليل المصروفات.
+> Here are my monthly expenses by category: housing, food, transport, and entertainment. Help me identify opportunities to reduce spending.
 
-الأرقام هنا أمثلة توضيحية فقط. عند الاستخدام، شارك مبالغ إجمالية وتجنب بيانات الحسابات والتعريف الشخصية.
+These figures are illustrative. Share totals rather than account details or personally identifying information.
 
-## كيف ينظّم إجابته؟
+## Response structure
 
-| القسم | المحتوى |
+| Section | Contents |
 | --- | --- |
-| ملخص الحالة المالية | مستقرة، تحتاج إلى تحسين، أو تحتاج إلى متابعة |
-| التحليل المالي | قراءة المعطيات وتحديد النقاط المهمة |
-| التوصيات | اقتراحات عملية مبنية على المعلومات المتاحة |
-| الخطة المقترحة | خطوات تساعد على الوصول إلى الهدف |
-| مستوى الثقة | منخفض، متوسط، أو مرتفع |
-| ملاحظات مهمة | القيود والمعلومات الناقصة والمخاطر عند الحاجة |
+| Financial overview | Stable, needs improvement, or needs follow-up |
+| Financial analysis | Review of the information and key observations |
+| Recommendations | Practical suggestions based on the available information |
+| Proposed plan | Steps toward the stated goal |
+| Confidence level | Low, medium, or high |
+| Important notes | Limitations, missing information, and relevant risks |
 
-هذا التنسيق مطلوب في تعليمات الشخصية، وقد يختلف التزام النموذج به.
+The personality instructions request this format; adherence may vary by model.
 
-## الخصوصية وحدود الاستخدام
+## Privacy and limitations
 
-تعليمات الإيجنت تمنعه من طلب كلمات المرور أو بيانات البطاقات البنكية أو رموز التحقق، ومن تقديم وعود بأرباح مضمونة. تعتمد الإجابات على المعلومات المقدمة وقد تحتوي على أخطاء؛ راجع الأرقام والافتراضات قبل الاعتماد عليها.
+The instructions prohibit requesting passwords, bank card details, or verification codes, and prohibit promises of guaranteed returns. Responses depend on the information provided and may contain errors. Review calculations and assumptions before relying on them.
 
-هذه النسخة لا تحتوي على محادثات المستخدم أو ذاكرته أو قواعد بياناته أو مفاتيح API. يعتمد التعامل مع الرسائل أثناء التشغيل على إعدادات Hermes ومزود النموذج الذي تختاره.
+This repository does not include user conversations, memories, databases, or API keys. How messages are handled during use depends on your Hermes configuration and chosen model provider.
 
-## ملفات المشروع
+## Repository contents
 
-| الملف | الغرض |
+| File | Purpose |
 | --- | --- |
-| [SOUL.md](SOUL.md) | تعليمات شخصية المستشار المالي الأصلية |
-| [README.md](README.md) | التعريف بالمشروع وطريقة الاستخدام |
-| [.gitignore](.gitignore) | قواعد لاستبعاد الأسرار وبيانات التشغيل من تتبع Git |
+| [SOUL.md](SOUL.md) | Original Arabic financial advisor personality instructions |
+| [README.md](README.md) | Project overview and setup guide |
+| [.gitignore](.gitignore) | Rules for excluding secrets and runtime data from Git tracking |
 
-## التخصيص والمساهمة
+## Customization and contributions
 
-يمكن تعديل `SOUL.md` لتغيير أسلوب الرد أو ترتيب أقسامه أو إضافة متطلبات تناسب استخدامك. جرّب التعديلات على بيانات افتراضية قبل استخدامها مع بياناتك.
+Edit `SOUL.md` to adjust the tone, response structure, or requirements for your use case. Try changes with fictional data before using your own information.
 
-للاقتراحات أو الإبلاغ عن مشكلة، افتح [Issue](https://github.com/Aljawharah12/mustasharak-almali/issues)، أو أرسل تعديلًا عبر Pull Request. لا تضمّن معلومات مالية شخصية أو مفاتيح وصول في المشاركات.
-
-</div>
+For suggestions or problems, open an [issue](https://github.com/Aljawharah12/mustasharak-almali/issues) or submit a pull request. Do not include personal financial information or access keys.
